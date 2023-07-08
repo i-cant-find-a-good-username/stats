@@ -25,6 +25,7 @@ jobs:
         python-version: '3.8'
         architecture: 'x64'
         cache: 'pip'
+        fetch-depth: 0
 
     # Install dependencies with `pip`
     - name: Install requirements
